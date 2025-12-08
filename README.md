@@ -48,7 +48,8 @@ Kotlin 编程语言课程，由 Romanov 教授主讲。
 大数据与高性能计算课程。
 
 - `PPT/` - 课程讲义
-- `No.1/`, `No.2/` - 课程作业
+- `Lab01-MapReduce/` - MapReduce 实验
+- `Lab02-Assignment/` - 作业 2
 
 ---
 
@@ -58,11 +59,12 @@ Kotlin 编程语言课程，由 Romanov 教授主讲。
 并行计算与超算编程课程。
 
 - `PPT/` - 课程讲义（共7讲）
-- `No.1/` - HPL (High-Performance Linpack) 基准测试
-- `No.2/` - Top500 超级计算机分析
-- `No.3/` - Parallel STL 并行编程
-- `No.4/` - SIMD 内置函数编程
-- `No.5/`, `No.6/` - 其他作业
+- `Lab01-HPL/` - HPL (High-Performance Linpack) 基准测试
+- `Lab02-Top500/` - Top500 超级计算机分析
+- `Lab03-ParallelSTL/` - Parallel STL 并行编程
+- `Lab04-SIMD/` - SIMD 内置函数编程
+- `Lab05-Assignment/` - 作业 5
+- `Lab06-Assignment/` - 作业 6
 
 ---
 
@@ -78,7 +80,7 @@ Kotlin 编程语言课程，由 Romanov 教授主讲。
 
 ---
 
-### Owo
+### Admin
 **课程计划**
 
 - `Учебный план магистры 1 курс ФИИТ.xls` - 硕士一年级课程教学计划
@@ -89,6 +91,7 @@ Kotlin 编程语言课程，由 Romanov 教授主讲。
 
 ```
 MSU-Master-1st-Semester-Courses/
+├── .gitignore                  # Git 忽略规则
 ├── Java/
 │   └── PPT/                    # Java 课程讲义
 ├── Kotlin/
@@ -98,14 +101,19 @@ MSU-Master-1st-Semester-Courses/
 │   └── homework/               # 作业
 ├── MHBG/
 │   ├── PPT/                    # 大数据课程讲义
-│   ├── No.1/                   # 作业1
-│   └── No.2/                   # 作业2
+│   ├── Lab01-MapReduce/        # MapReduce 实验
+│   └── Lab02-Assignment/       # 作业2
 ├── PPSC/
 │   ├── PPT/                    # 并行编程讲义
-│   ├── No.1/ ~ No.6/           # 作业1-6
+│   ├── Lab01-HPL/              # HPL 基准测试
+│   ├── Lab02-Top500/           # Top500 分析
+│   ├── Lab03-ParallelSTL/      # Parallel STL
+│   ├── Lab04-SIMD/             # SIMD 优化
+│   ├── Lab05-Assignment/       # 作业5
+│   ├── Lab06-Assignment/       # 作业6
 │   └── README.md               # 详细说明
 ├── Science/                    # 科研论文
-├── Owo/                        # 教学计划
+├── Admin/                      # 教学计划
 └── README.md                   # 本文件
 ```
 

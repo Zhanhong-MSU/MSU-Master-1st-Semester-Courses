@@ -1,0 +1,64 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Java compiled files
+*.class
+*.jar
+
+# C++ specific
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+!PPSC/*/Makefile
+
+# Logs
+*.log
+*.tlog
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large Data files
+*.dat
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
