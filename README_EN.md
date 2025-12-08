@@ -42,13 +42,14 @@ Manipulation robotics course covering modeling, kinematics, and dynamics.
 
 ---
 
-### MHBG
+### MHBD
 **Management of Heterogeneous Big Data** (Управление разно-структурированными большими данными)
 
 Big data and high-performance computing course.
 
 - `PPT/` - Course slides
-- `No.1/`, `No.2/` - Course assignments
+- `README.md` - Course description and code repository link
+- 📦 **Lab Code**: See [MHBD Code Repository](https://github.com/Zhanhong-MSU/MHBD)
 
 ---
 
