@@ -2,7 +2,8 @@
 
 **Параллельное программирование и суперкомпьютерный кодизайн**
 
-[中文版本](README.md) | **English**
+[![中文](https://img.shields.io/badge/中文-点击查看-blue?style=for-the-badge)](README.md)
+[![English](https://img.shields.io/badge/English-Current-green?style=for-the-badge)](README_EN.md)
 
 ---
 

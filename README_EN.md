@@ -5,6 +5,17 @@
 
 Course materials for the 1st semester of Master's program at Moscow State University, Faculty of Computational Mathematics and Cybernetics
 
+---
+
+## 📚 Code Repository Navigation
+
+| Course | Repository Link | Status | Description |
+|--------|----------------|--------|-------------|
+| **PPSC** | [🔗 Parallel Programming](https://github.com/Zhanhong-MSU/PPSC) | ![Stars](https://img.shields.io/github/stars/Zhanhong-MSU/PPSC?style=social) ![Commits](https://img.shields.io/github/last-commit/Zhanhong-MSU/PPSC) | Parallel computing & supercomputer labs |
+| **MHBD** | [🔗 Big Data Management](https://github.com/Zhanhong-MSU/MHBD) | ![Stars](https://img.shields.io/github/stars/Zhanhong-MSU/MHBD?style=social) ![Commits](https://img.shields.io/github/last-commit/Zhanhong-MSU/MHBD) | Heterogeneous big data labs |
+
+> 📌 **Note**: Click the links above to view complete code repositories. This repo contains only course slides and documentation.
+
 ## 📚 Course Directory
 
 ### Java

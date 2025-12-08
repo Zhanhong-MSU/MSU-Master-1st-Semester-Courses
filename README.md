@@ -5,6 +5,17 @@
 
 莫斯科国立大学计算机学院硕士一年级课程资料
 
+---
+
+## 📚 代码仓库导航
+
+| 课程 | 仓库链接 | 状态 | 说明 |
+|------|---------|------|------|
+| **PPSC** | [🔗 并行编程](https://github.com/Zhanhong-MSU/PPSC) | ![Stars](https://img.shields.io/github/stars/Zhanhong-MSU/PPSC?style=social) ![Commits](https://img.shields.io/github/last-commit/Zhanhong-MSU/PPSC) | 并行计算与超算编程实验 |
+| **MHBD** | [🔗 大数据管理](https://github.com/Zhanhong-MSU/MHBD) | ![Stars](https://img.shields.io/github/stars/Zhanhong-MSU/MHBD?style=social) ![Commits](https://img.shields.io/github/last-commit/Zhanhong-MSU/MHBD) | 异构大数据管理实验 |
+
+> 📌 **提示**：点击上表链接查看各课程的完整代码仓库。本仓库仅包含课程 PPT 和文档。
+
 ## 📚 课程目录
 
 ### Java
