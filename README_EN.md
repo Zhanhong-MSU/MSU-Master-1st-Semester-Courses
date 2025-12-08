@@ -29,9 +29,9 @@ Kotlin programming language course, taught by Professor Romanov.
 ---
 
 ### MCMR
-**Mathematics and Control of Mobile and Cooperative Robots** (Математика и Управление Мобильными и Кооперативными Роботами)
+**Modeling and Control of Manipulation Robots** (Моделирование и управление манипуляционными роботами)
 
-Robotics course covering kinematics and dynamics.
+Manipulation robotics course covering modeling, kinematics, and dynamics.
 
 - `PPT/` - Course slides
   - Introduction (Intro)
@@ -43,7 +43,7 @@ Robotics course covering kinematics and dynamics.
 ---
 
 ### MHBG
-**High-Performance Big Data Methods** (Методы высокопроизводительной обработки больших данных)
+**Management of Heterogeneous Big Data** (Управление разно-структурированными большими данными)
 
 Big data and high-performance computing course.
 
@@ -53,7 +53,7 @@ Big data and high-performance computing course.
 ---
 
 ### PPSC
-**Parallel Programming for Supercomputer Systems** (Параллельное программирование суперкомпьютерных систем)
+**Parallel Programming and Supercomputer Co-design** (Параллельное программирование и суперкомпьютерный кодизайн)
 
 Parallel computing and supercomputer programming course.
 
