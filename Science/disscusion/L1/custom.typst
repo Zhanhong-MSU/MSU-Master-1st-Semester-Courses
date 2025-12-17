@@ -1,0 +1,62 @@
+// Custom Typst template – clean GitHub-like styling
+// Fonts: Prefer Noto Sans / Noto Serif families (bundled with Typst) for CJK + Latin + Cyrillic
+
+#let horizontalrule = line(start: (25%,0%), end: (75%,0%), stroke: 0.5pt + luma(180))
+
+// ============ Global page & text settings ============
+#set page(
+  paper: "a4",
+  margin: (x: 2cm, y: 2cm),
+)
+
+#set text(
+  font: ("PingFang SC", "Hiragino Sans GB", "Heiti SC", "Helvetica Neue", "Arial"),
+  size: 10pt,
+  lang: "zh",
+)
+
+#set par(
+  justify: false,
+  leading: 0.8em,        // line spacing inside paragraph
+  first-line-indent: 0pt,
+)
+
+// ============ Headings ============
+#show heading.where(level: 1): it => {
+  v(1.2em)
+  text(weight: "bold", size: 16pt)[#it.body]
+  v(0.6em)
+}
+
+#show heading.where(level: 2): it => {
+  v(1em)
+  text(weight: "bold", size: 13pt)[#it.body]
+  v(0.5em)
+}
+
+#show heading.where(level: 3): it => {
+  v(0.8em)
+  text(weight: "bold", size: 11pt)[#it.body]
+  v(0.4em)
+}
+
+// ============ Tables – clean border style ============
+#set table(
+  inset: 6pt,
+  stroke: (paint: luma(200), thickness: 0.5pt),
+)
+
+#show table.cell.where(y: 0): set text(weight: "bold")
+
+// ============ Horizontal rule ============
+#show: doc => {
+  show "---": horizontalrule
+  doc
+}
+
+// ============ Strong (bold) ============
+#show strong: set text(weight: "bold")
+
+// ============ Math ============
+#set math.equation(numbering: none)
+
